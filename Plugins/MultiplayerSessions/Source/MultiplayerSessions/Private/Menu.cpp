@@ -7,6 +7,7 @@ void UMenu::MenuSetup()
 {
     AddToViewport();
     SetVisibility(ESlateVisibility::Visible);
+    bIsFocusable = true;
 
     UWorld* World = GetWorld();
     if (World)
