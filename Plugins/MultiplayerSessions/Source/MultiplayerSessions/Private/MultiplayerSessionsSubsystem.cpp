@@ -58,7 +58,7 @@ void UMultiplayerSessionsSubsystem::FindSessions(int32 MaxSearchResults)
 {
 }
 
-void UMultiplayerSessionsSubsystem::JoinSession(const FOnlineSessionSearchResult& SessionResults);
+void UMultiplayerSessionsSubsystem::JoinSession(const FOnlineSessionSearchResult& SessionResults)
 {
 }
 
