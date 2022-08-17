@@ -106,7 +106,7 @@ void UMenu::OnCreateSession(bool bWasSuccessful)
     }
 }
 
-void UMenu::OnFindSessions(const TArray<FOnlineSessionSearchResult>& SearchResults, bool bWasSuccessful)
+void UMenu::OnFindSessions(const TArray<FOnlineSessionSearchResult>& SessionResults, bool bWasSuccessful)
 {
     if (MultiplayerSessionsSubsystem == nullptr)
     {
@@ -149,7 +149,7 @@ void UMenu::OnDestroySession(bool bWasSuccessful)
 {
 }
 
-void OnStartSession(bool bWasSuccessful)
+void UMenu::OnStartSession(bool bWasSuccessful)
 {
 }
 

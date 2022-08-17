@@ -40,7 +40,7 @@ public:
 	// Our own custom delegates for the Menu class to bind callbacks to
 	//
 	FMultiplayerOnCreateSessionComplete MultiplayerOnCreateSessionComplete;
-	FMultiplaterOnFindSessionsComplete MultiplayerOnFindSessionsComplete;
+	FMultiplayerOnFindSessionsComplete MultiplayerOnFindSessionsComplete;
 	FMultiplayerOnJoinSessionComplete MultiplayerOnJoinSessionComplete;
 	FMultiplayerOnDestroySessionComplete MultiplayerOnDestroySessionComplete;
 	FMultiplayerOnStartSessionComplete MultiplayerOnStartSessionComplete;
