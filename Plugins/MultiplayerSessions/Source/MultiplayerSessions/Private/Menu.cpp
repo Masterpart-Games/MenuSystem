@@ -105,7 +105,7 @@ void UMenu::OnCreateSession(bool bWasSuccessful)
     }
 }
 
-void UMenu::OnFindSessions(const TArray<FOnlineSessionSearchResult>& SearchResults, bool bWasSuccessful)
+void UMenu::OnFindSessions(const TArray<FOnlineSessionSearchResult>& SessionResults, bool bWasSuccessful);
 {
 }
 
